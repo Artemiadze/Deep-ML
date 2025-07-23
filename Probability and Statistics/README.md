@@ -31,3 +31,19 @@ n = 6, k = 2, p = 0.5
 
 **Reasoning:**
 ```The function calculates the Binomial probability, the intermediate steps include calculating the binomial coefficient, raising p and (1-p) to the appropriate powers, and multiplying the results.``` 
+
+# 2.3 Normal Distribution PDF Calculator
+Write a Python function to calculate the probability density function (PDF) of the normal distribution for a given value, mean, and standard deviation. The function should use the mathematical formula of the normal distribution to return the PDF value rounded to 5 decimal places. 
+
+**Input**:
+```python
+x = 16, mean = 15, std_dev = 2.04
+```
+
+**Output**:
+```python
+0.17342
+```
+
+**Reasoning:**
+```The function computes the PDF using x = 16, mean = 15, and std_dev = 2.04.``` 
