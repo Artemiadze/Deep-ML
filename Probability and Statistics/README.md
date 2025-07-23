@@ -47,3 +47,19 @@ x = 16, mean = 15, std_dev = 2.04
 
 **Reasoning:**
 ```The function computes the PDF using x = 16, mean = 15, and std_dev = 2.04.``` 
+
+# 2.4 Descriptive Statistics Calculator
+Write a Python function to calculate various descriptive statistics metrics for a given dataset. The function should take a list or NumPy array of numerical values and return a dictionary containing mean, median, mode, variance, standard deviation, percentiles (25th, 50th, 75th), and interquartile range (IQR).
+
+**Input**:
+```python
+[10, 20, 30, 40, 50]
+```
+
+**Output**:
+```python
+{'mean': 30.0, 'median': 30.0, 'mode': 10, 'variance': 200.0, 'standard_deviation': 14.142135623730951, '25th_percentile': 20.0, '50th_percentile': 30.0, '75th_percentile': 40.0, 'interquartile_range': 20.0}
+```
+
+**Reasoning:**
+```The dataset is processed to calculate all descriptive statistics. The mean is the average value, the median is the central value, the mode is the most frequent value, and variance and standard deviation measure the spread of data. Percentiles and IQR describe data distribution.``` 
