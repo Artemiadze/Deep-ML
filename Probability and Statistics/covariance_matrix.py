@@ -54,3 +54,6 @@ def calculate_covariance_matrix(vectors: List[List[float]], ddof: int = 1) -> Li
             cov_matrix[j][i] = cov_ij  # symmetry
 
     return cov_matrix
+
+print(calculate_covariance_matrix([[1, 2, 3], [4, 5, 6]]))
+print(calculate_covariance_matrix([[1, 5, 6], [2, 3, 4], [7, 8, 9]]))
