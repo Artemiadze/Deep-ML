@@ -108,3 +108,35 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], mode = 'column'
 ```python
 [4.0, 5.0, 6.0]
 ```
+
+# 1.7 Calculate 2x2 Matrix Inverse
+Write a Python function that calculates the inverse of a 2x2 matrix. Return 'None' if the matrix is not invertible.
+
+**Input**:
+```python
+matrix = [[4, 7], [2, 6]]
+```
+
+**Output**:
+```python
+[[0.6, -0.7], [-0.2, 0.4]]
+```
+
+**Reasoning:**
+```The inverse of a 2x2 matrix [a, b], [c, d] is given by (1/(ad-bc)) * [d, -b], [-c, a], provided ad-bc is not zero```
+
+# 1.8 Matrix times Matrix
+Multiply two matrices together (return -1 if shapes of matrix dont aline), i.e. *C=A⋅B*
+
+**Input**:
+```python
+A = [[1,2],[2,4]], B = [[2,1],[3,4]]
+```
+
+**Output**:
+```python
+[[8, 9],[16, 18]]
+```
+
+**Reasoning:**
+```1*2 + 2*3 = 8; 2*2 + 3*4 = 16; 1*1 + 2*4 = 9; 2*1 + 4*4 = 18 Example 2: input: A = [[1,2], [2,4]], B = [[2,1], [3,4], [4,5]] output: -1 reasoning: the length of the rows of A does not equal the column length of B``` 
