@@ -45,6 +45,52 @@ vec1 = np.array([1, 2, 3]), vec2 = np.array([4, 5, 6])
 **Reasoning:**
 ```The function calculates the dot product by multiplying corresponding elements of the two vectors and summing the results. For vec1 = [1, 2, 3] and vec2 = [4, 5, 6], the result is (1 * 4) + (2 * 5) + (3 * 6) = 32.```
 
+# 1.4 Scalar Multiplication of a Matrix
+Write a Python function that multiplies a matrix by a scalar and returns the result.
+
+**Input:**
+```python
+matrix = [[1, 2], [3, 4]], scalar = 2
+```
+
+**Output:**
+```python
+[[2, 4], [6, 8]]
+```
+
+**Reasoning:**
+```Each element of the matrix is multiplied by the scalar.```
+
+# 1.5 Calculate Cosine Similarity Between Vectors
+**Task: Implement Cosine Similarity**
+In this task, you need to implement a function cosine_similarity(v1, v2) that calculates the cosine similarity between two vectors. Cosine similarity measures the cosine of the angle between two vectors, indicating their directional similarity.
+
+**Input:**
+- v1 and v2: Numpy arrays representing the input vectors.
+
+**Output:**
+- A float representing the cosine similarity, rounded to three decimal places.
+
+**Constraints:**
+- Both input vectors must have the same shape.
+- Input vectors cannot be empty or have zero magnitude.
+
+**Example**\
+**Input:**
+```python
+import numpy as np
+
+v1 = np.array([1, 2, 3])
+v2 = np.array([2, 4, 6])
+print(cosine_similarity(v1, v2))
+```
+
+**Output:**
+```python
+1.0
+```
+
+
 # 1.6 Calculate Mean by Row or Column
 Write a Python function that calculates the mean of a matrix either by row or by column, based on a given mode. The function should take a matrix (list of lists) and a mode ('row' or 'column') as input and return a list of means according to the specified mode.
 
