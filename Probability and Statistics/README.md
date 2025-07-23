@@ -63,3 +63,19 @@ Write a Python function to calculate various descriptive statistics metrics for 
 
 **Reasoning:**
 ```The dataset is processed to calculate all descriptive statistics. The mean is the average value, the median is the central value, the mode is the most frequent value, and variance and standard deviation measure the spread of data. Percentiles and IQR describe data distribution.``` 
+
+# 2.5 Calculate Covariance Matrix
+Write a Python function to calculate the covariance matrix for a given set of vectors. The function should take a list of lists, where each inner list represents a feature with its observations, and return a covariance matrix as a list of lists. Additionally, provide test cases to verify the correctness of your implementation.
+
+**Input**:
+```python
+[[1, 2, 3], [4, 5, 6]]
+```
+
+**Output**:
+```python
+[[1.0, 1.0], [1.0, 1.0]]
+```
+
+**Reasoning:**
+```The covariance between the two features is calculated based on their deviations from the mean. For the given vectors, both covariances are 1.0, resulting in a symmetric covariance matrix.``` 
