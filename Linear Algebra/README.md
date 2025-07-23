@@ -140,3 +140,19 @@ A = [[1,2],[2,4]], B = [[2,1],[3,4]]
 
 **Reasoning:**
 ```1*2 + 2*3 = 8; 2*2 + 3*4 = 16; 1*1 + 2*4 = 9; 2*1 + 4*4 = 18 Example 2: input: A = [[1,2], [2,4]], B = [[2,1], [3,4], [4,5]] output: -1 reasoning: the length of the rows of A does not equal the column length of B``` 
+
+# 1.9 Calculate Eigenvalues of a Matrix
+Write a Python function that calculates the eigenvalues of a 2x2 matrix. The function should return a list containing the eigenvalues, sort values from highest to lowest.
+
+**Input**:
+```python
+matrix = [[2, 1], [1, 2]]
+```
+
+**Output**:
+```python
+[3.0, 1.0]
+```
+
+**Reasoning:**
+The eigenvalues of the matrix are calculated using the characteristic equation of the matrix, which for a 2x2 matrix is  *λ^2 − trace(A)λ + det(A) = 0*, where λ are the eigenvalues.
