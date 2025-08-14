@@ -1,0 +1,7 @@
+def relu(z: float) -> float:
+	# Your code here
+	return max(0, z)
+
+print(relu(0)) 
+print(relu(1)) 
+print(relu(-1))
